@@ -1,11 +1,16 @@
-#home {
-  background-color: #D23333;
+.banner {
+  // background-color: #D23333;
   color: white;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  background-size: cover !important;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  }
+
   p {
     margin-top: 1.5em;
   }
@@ -14,4 +19,4 @@
     font-weight: bold;
     font-size: 16px;
   }
-}
+
